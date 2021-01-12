@@ -13,6 +13,11 @@ class ImagesController < ApplicationController
     render json: @images, status: :created
   end
 
+  def welcome
+    @welcome = 'Welcome to my App!'
+    render html: @welcome
+  end
+
   private
 
   def images_params
