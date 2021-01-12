@@ -104,6 +104,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
+    pg (1.2.3-x64-mingw32)
     puma (4.3.7)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -175,6 +176,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   cloudinary
+  pg
   puma (~> 4.1)
   rack-cors
   rails (~> 6.0.3, >= 6.0.3.4)
